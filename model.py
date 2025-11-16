@@ -33,7 +33,7 @@ print("=" * 70)
 print("KREDIT TAHLIL VA BASHORAT TIZIMI (CPU)".center(70))
 print("=" * 70)
 
-df = pd.read_csv('data/full.csv')
+df = pd.read_csv('data_new/full.csv')
 print(f"\n✓ Dataset yuklandi: {df.shape[0]} qator, {df.shape[1]} ustun")
 
 # 2. BOSHLANG'ICH TAHLIL
